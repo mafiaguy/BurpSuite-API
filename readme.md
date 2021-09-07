@@ -11,5 +11,7 @@ pip install -r requirements.txt
 ------------
 Do an active scan
 python3 burp_scanwalker.py -u url of the burpsuite api -f filepath of the data.json
-------------
-example :- python3 burp_scanwalker.py -u http://127.0.0.1:1337/v0.1/scan -f /Users/mafiaguy/Desktop/data.json
+------------ 
+--------
+python3 burp_scanwalker.py -u http://127.0.0.1:1337/v0.1/scan -f /Users/mafiaguy/Desktop/data.json
+--------
