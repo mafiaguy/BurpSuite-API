@@ -5,7 +5,8 @@ Uses the Burp API to do an active scan on a single host, a file listing hosts, o
 Usage
 Works with Python 3. This script Requires the Requests module. By default, the Burp API host is set to 127.0.0.1:1337 and the API is set to ''. If you specify a range, the tool will generate an IP range and run each address through a function that creates multiple URLs that attempts connections on multiple web ports. When providing URLs, the format should be http(s)://addr:port. If you don't provide URLs like this, that's okay, the tool will transform your URL to match that format. 
 
-Inorder to run this you woul require to install requirments:-
+In order to run this you woul require to install requirments:-
+
 ------------
 pip install -r requirements.txt
 ------------
