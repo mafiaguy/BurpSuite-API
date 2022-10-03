@@ -2,8 +2,13 @@
 
 This script is utilised to communicate with the Burp Rest API. For these scripts to function, the Burp REST API must be enabled. Go to User Options->Misc->REST API to enable the API. The scripts will automatically use the address 127.0.0.1:1337 as their default address. Using command-line options, you can modify the location.  It does an active scan on a single host, a list of hosts in a file, or a range of hosts using the Burp REST API.
 
-![](images\Rest_API.png)
-![](images\Rest_API_Config.png)
+<p align="center">
+  <img src="images\Rest_API.png" alt="Custom Gif"/>
+</p>
+
+<p align="center">
+  <img src="images\Rest_API_Config.png" alt="Custom Gif"/>
+</p>
 
 # Usage :
 
